@@ -18,7 +18,7 @@ import './style.css'
 // Paste your endpoint for the Relay API here.
 // Info: https://github.com/graphcool-examples/react-relay-todo-example#2-create-graphql-api-with-graphcool
 Relay.injectNetworkLayer(
-  new Relay.DefaultNetworkLayer('__RELAY_API_ENDPOINT__')
+  new Relay.DefaultNetworkLayer('https://api.graph.cool/relay/v1/cj3xdcgtue6y10163stu4ghbx')
 )
 
 ReactDOM.render(
